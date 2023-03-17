@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background: url(https://silverlakespark.com/wp-content/uploads/2016/07/Soccerfield-at-Night.jpg)
+        no-repeat fixed;
+    background-size: cover;
+    height: 100vh;
+}
+.main-div {
+    position: absolute;
+    left: 300px;
+    top: 65px;
+    background: url(https://github.com/gauravghai/weatherApp-Reactjs/blob/master/src/images/city.jpg?raw=true);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 530px;
+    width: 400px;
+}
+.bg2 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.657);
+    left: 400px;
+    height: 530px;
+    width: 300px;
+}
+.pk {
+    top: 40px;
+    left: 355px;
+}
+
+#clock {
+    position: absolute;
+    top: 450px;
+    left: 40px;
+    color: white;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 25px;
+}
+.search {
+    top: 200px;
+    z-index: 1;
+    position: absolute;
+    left: 360px;
+}
+.day {
+    font-style: italic;
+    position: absolute;
+    font-size: 25px;
+    right: 550px;
+    top: 491px;
+    z-index: 1;
+}
+.date {
+    font-size: 25px;
+    font-style: italic;
+    position: absolute;
+    right: 410px;
+    top: 492px;
+    z-index: 1;
+}
+.largedeg {
+    font-size: 40px;
+    font-style: italic;
+    position: absolute;
+    right: 325px;
+    top: 445px;
+    font-style: italic;
+    z-index: 1;
+}
+
+.conditionlg {
+    font-style: italic;
+    text-transform: capitalize;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.line {
+    margin: 10px auto 0px auto;
+    background-color: white;
+    width: 260px;
+    height: 2px !important;
+}
+.line2 {
+    position: relative;
+    left: 40px;
+    bottom: 75px;
+    width: 220px;
+    opacity: 1;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.621) !important;
+}
+.line3 {
+    position: relative;
+    left: 40px;
+    bottom: 65px;
+    width: 220px;
+    opacity: 1;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.669) !important;
+}
+.line4 {
+    position: relative;
+    left: 40px;
+    bottom: 60px;
+    width: 220px;
+    opacity: 1;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.669) !important;
+}
+.condition {
+    position: relative;
+    left: 40px;
+    top: -65px;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: bold;
+}
+.humidity {
+    position: relative;
+    left: 75px;
+    top: -60px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+.wind {
+    position: relative;
+    left: 60px;
+    top: -50px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+input {
+    margin-left: 25px !important;
+    border-bottom: 2px solid white !important;
+    border: none;
+    background-color: transparent !important;
+    color: white !important;
+}
+
+input::placeholder {
+    padding-left: 5px;
+    font-size: 18px;
+    font-weight: bolder;
+    font-style: italic;
+    color: white !important;
+}
+input:focus {
+    outline: none;
+    border-bottom: 2px solid white !important;
+}
+.bi-search {
+    border: 2px solid white;
+    border-radius: 30px !important;
+}
+.city {
+    font-weight: bolder;
+    font-style: italic;
+    margin: 95px 50px;
+    font-size: 20px;
+}
+
+input[type="text"] {
+    font-style: italic;
+    font-weight: bold;
+}
+.temp {
+    position: relative;
+    left: 45px;
+    top: -70px;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+}
+.imgicon {
+    position: absolute;
+    top: 240px;
+    left: 180px;
+}
+svg {
+    margin: 27px 110px;
+    animation: spin 45s infinite linear;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
